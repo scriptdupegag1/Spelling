@@ -139,8 +139,8 @@ logConn = LogService.MessageOut:Connect(function(message, type)
     end
 end)
 
-local url = "https://raw.githubusercontent.com/skrylor/english-words/refs/heads/main/merged_english.txt"
-local fileName = "ultimate_words_v4.txt"
+local url = "https://raw.githubusercontent.com/scriptdupegag1/Spelling/refs/heads/main/dywl%20list%20full.txt"
+local fileName = "ultimate_words_v5.txt"
 
 if not isfile(fileName) then
     local res = request({Url = url, Method = "GET"})
