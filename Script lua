@@ -139,7 +139,7 @@ logConn = LogService.MessageOut:Connect(function(message, type)
     end
 end)
 
-local url = "https://raw.githubusercontent.com/scriptdupegag1/Spelling/refs/heads/main/dywl%20list%20full.txt"
+local url = "https://raw.githubusercontent.com/scriptdupegag1/Spelling/refs/heads/main/ultimate_words_v5.txt"
 local fileName = "ultimate_words_v5.txt"
 
 if not isfile(fileName) then
